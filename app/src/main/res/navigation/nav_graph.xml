@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/payment"
+    >
+
+    <fragment
+        android:id="@+id/payment"
+        android:name="com.womens.womensassociation.ui.Donate.Donate"
+        android:label="Donate"
+        tools:layout="@layout/fragment_donate" >
+    </fragment>
+    <fragment
+        android:id="@+id/admin"
+        android:name="com.womens.womensassociation.admin.admin"
+        android:label="Admin" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.womens.womensassociation.ui.homepage.Homepage"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.womens.womensassociation.ui.about_us_fragment.AboutUs"
+        android:label="About US"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

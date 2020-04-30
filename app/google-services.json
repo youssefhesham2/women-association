@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "736348445127",
+    "firebase_url": "https://womens-association-272216.firebaseio.com",
+    "project_id": "womens-association-272216",
+    "storage_bucket": "womens-association-272216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736348445127:android:06835ba294d387bb3b61e2",
+        "android_client_info": {
+          "package_name": "com.example.womensassociation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736348445127-rtqjmtj4mdaman509vgbjakahbsa5lej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womensassociation",
+            "certificate_hash": "87ea3e51bb20a5c5a08c4e25f9ce470608fac41d"
+          }
+        },
+        {
+          "client_id": "736348445127-jm13sus692e7qokua0397dp1a1v4io5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpIrVYaxSkU4cq9h5oGyrBvo6-a1nR8nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736348445127-jm13sus692e7qokua0397dp1a1v4io5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "736348445127-2efbt1qbh3m1v2jpshjbosp2m1gvu4jk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sameer.womenassociation"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736348445127:android:985375b1b6c7f2743b61e2",
+        "android_client_info": {
+          "package_name": "com.womens.womensassociation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736348445127-6eccpdoqahm42s2cq2uvje5i2671hivg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.womens.womensassociation",
+            "certificate_hash": "87ea3e51bb20a5c5a08c4e25f9ce470608fac41d"
+          }
+        },
+        {
+          "client_id": "736348445127-jm13sus692e7qokua0397dp1a1v4io5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpIrVYaxSkU4cq9h5oGyrBvo6-a1nR8nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736348445127-jm13sus692e7qokua0397dp1a1v4io5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "736348445127-2efbt1qbh3m1v2jpshjbosp2m1gvu4jk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sameer.womenassociation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

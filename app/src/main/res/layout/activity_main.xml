@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main_activity.MainActivity"
+    android:background="#A249A3">
+
+    <ImageView
+        android:id="@+id/logo_inhome"
+        android:layout_width="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="50dp"
+        android:background="@drawable/splashbackground"
+        tools:context=".ui.main_activity.MainActivity">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/view">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight=".1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+                android:layout_weight="1"
+               android:onClick="beneficiary"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:id="@+id/beneficiary_imag"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/beneficiary" />
+               <TextView
+                   android:id="@+id/beneficiary_txt"
+                   android:layout_width="100sp"
+                   android:layout_height="match_parent"
+                   android:text="Beneficiary services"
+                   android:gravity="center"
+                   android:textSize="16sp"
+                   android:textColor="#000"/>
+           </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:onClick="human"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/humanitarianaids_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/humanitarianaids"/>
+                <TextView
+                    android:id="@+id/humanitarianaids_txt"
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:text="Humanitarian Aid"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:onClick="widows"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/WindowsandOrphans_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/widows"/>
+                <TextView
+                    android:id="@+id/WindowsandOrphans_txt"
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:text="Widows and Orphans"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:onClick="community"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/community_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/coummunity"/>
+                <TextView
+                    android:id="@+id/community_txt"
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:text="Community Engagement"
+                    android:gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="start"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:onClick="ourproject"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/our_project_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ourproject"/>
+                <TextView
+                    android:id="@+id/our_project_txt"
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:text="Our Project"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:onClick="aboutus"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/aboutus_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/aboutus"/>
+                <TextView
+                    android:id="@+id/aboutus_txt"
+                    android:layout_width="100sp"
+                    android:layout_height="match_parent"
+                    android:text="About Us"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight=".1"/>
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/paypal_img"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/paypal"/>
+                <TextView
+                    android:id="@+id/paypal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Donate"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/contectus_img"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/contact"/>
+                <TextView
+                    android:id="@+id/contectus_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Contact us"
+                    android:gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </LinearLayout>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@id/back"
+        android:layout_marginEnd="5dp"
+        android:onClick="paypal"
+        android:id="@+id/paypal"
+        android:src="@drawable/paypal"/>
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+       android:layout_toLeftOf="@+id/paypal"
+        android:gravity="center"
+        android:text="العربية"
+        android:layout_marginEnd="20dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:onClick="language" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/back"
+        android:layout_alignEnd="@id/back"
+        android:layout_marginEnd="5dp"
+        android:onClick="contect"
+        android:src="@drawable/contact"/>
+
+    <!--<ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageone"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/back"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:text="Beneficiary services"
+         android:textSize="16sp"
+          android:layout_below="@+id/imageone"
+         android:layout_alignParentRight="true"
+         android:gravity="center"
+         android:textColor="#000"/>
+     <ImageView
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:src="@drawable/logo"
+         android:id="@+id/image22"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:layout_alignTop="@id/back"/>
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:text="Beneficiary services"
+         android:textSize="16sp"
+         android:layout_below="@+id/image22"
+         android:layout_centerHorizontal="true"
+         android:gravity="center"
+         android:textColor="#000"/>-->
+</RelativeLayout>
+
+
+
+
+
+
+
+   <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottonNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+        app:menu="@menu/menu"
+        app:itemTextColor="@drawable/menu_color"
+        app:itemIconTint="@drawable/menu_color"
+        app:labelVisibilityMode="labeled" /> -->
+

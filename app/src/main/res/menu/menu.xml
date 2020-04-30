@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="home" />
+
+    <item
+        android:id="@+id/our_project"
+        android:icon="@drawable/oursvg"
+        android:title="our project" />
+
+    <item
+        android:id="@+id/Beneficiary"
+        android:icon="@drawable/bensvg"
+        android:title="Beneficiary services" />
+
+    <item
+        android:id="@+id/Humanitarian"
+        android:icon="@drawable/humsvg"
+        android:title="Humanitarian Aid" />
+
+    <item
+        android:id="@+id/Widows"
+        android:icon="@drawable/widowssvg"
+        android:title="Widows and Orphans" />
+
+    <item
+        android:id="@+id/Community"
+        android:icon="@drawable/commsvg"
+        android:title="Community Engagement" />
+
+
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/payment"
+        android:title="Donate" />
+
+
+
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/aboutsvg"
+        android:title="about us" />
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/admin"
+        android:title="admin" />
+    
+    <item android:title="Communicate"
+        android:id="@+id/Communicate"
+        >
+        <menu>
+            <item
+                android:id="@+id/contectus"
+                android:icon="@drawable/card"
+                android:title="contact us" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/fff"
+                android:title="visit us" />
+        </menu>
+    </item>
+</menu>
