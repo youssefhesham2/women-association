@@ -2,7 +2,7 @@ package com.womens.womensassociation.models;
 
 public class AboutUsModel {
     String image_url,describe,longitude,latitude;
-//
+
     public AboutUsModel(String image_url, String describe, String longitude, String latitude) {
         this.image_url = image_url;
         this.describe = describe;
